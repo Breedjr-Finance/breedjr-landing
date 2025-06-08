@@ -30,10 +30,9 @@ export default function RootLayout({
       <body
         className={`${agrandir.variable} ${graphik.variable} antialiased`}
       >
-        {/* <Navbar /> */}
-        {/* <main className='container'> */}
+
         {children}
-        {/* </main> */}
+
         {/* <Footer /> */}
       </body>
     </html>

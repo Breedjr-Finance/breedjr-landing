@@ -13,7 +13,7 @@ export default function Experience() {
                     <h2 className="text-3xl lg:text-5xl font-agrandir text-primary2 font-bold">Skip the middleman, Convert your crypto earnings to local currency</h2>
                     <p
                         className=" text-xl font-graphik text-primary3 font-normal"
-                    >Making money is already difficult, receiving money doesn’t have to be difficult either. Breedjr makes cashing out your crypto a breeze - it's as effortless as sending a text.</p>
+                    >Making money is already difficult, receiving money doesn&apos;t have to be difficult either. Breedjr makes cashing out your crypto a breeze - it&apos;s as effortless as sending a text.</p>
                     <div className="flex flex-col gap-2.5 md:flex-row ">
                         <CustomButton
                             supTitle='Get it on'

@@ -1,9 +1,6 @@
-import { CustomAccordion } from '@/components/CustomAccordion'
-import { ourValuesData } from '@/lib/data'
 import React from 'react'
 
 const Values = () => {
-    // bg-[#C7C7C7] opacity-15
     return (
         <section className='grid lg:grid-cols-2 px-4 md:px-20 gap-6.5'>
             <div className=' bg-[#C7C7C715] md:h-[253px] p-9 flex flex-col gap-8 max-[535px] rounded-2xl'>

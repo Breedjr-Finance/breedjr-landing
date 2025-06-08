@@ -4,8 +4,7 @@ import Experience from "./common/Experience";
 import FAQ from "./common/FAQ";
 import Hero from "./common/Hero";
 import HowItWorks from "./common/HowitWorks";
-import NoHiddenCharges from "./common/NoHiddenCharges";
-import SendReceive from "./common/SendReceive";
+
 import Footer from "@/components/navigation/Footer";
 
 export default async function Home() {

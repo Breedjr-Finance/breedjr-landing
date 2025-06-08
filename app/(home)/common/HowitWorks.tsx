@@ -1,6 +1,4 @@
-import CustomButton from "@/components/CustomButton";
 import ImageWithFallback from "@/components/ImageWithFallback";
-import { Separator } from "@/components/ui/separator";
 import { HowitworksList } from "@/lib/data";
 
 export default function HowItWorks() {

@@ -1,10 +1,5 @@
-"use client";
-
-import ImageWithFallback from "@/components/ImageWithFallback";
-import Link from "next/link";
 
 export default function Hero() {
-    const items = ['about-1.png', 'about-2.png', 'about-3.png']
     return (
 
         <section className="h-full">

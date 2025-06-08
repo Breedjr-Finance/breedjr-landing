@@ -13,7 +13,6 @@ export default async function Home() {
       </Header>
 
       <main className='container'>
-        {/* <Content /> */}
         <Story />
         <Values />
       </main>

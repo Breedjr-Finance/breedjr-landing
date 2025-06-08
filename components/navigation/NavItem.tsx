@@ -1,10 +1,8 @@
-'use client'
 import Link from "next/link";
 import { cn } from "@/lib/utils"; // ShadCN utility for merging classes
 import { LucideIcon } from "lucide-react"; // Importing Lucide icons for consistency
 import { ReactNode } from "react";
 import { IconType } from "react-icons";
-import { usePathname } from "next/navigation";
 
 interface NavItemProps {
     icon?: LucideIcon | IconType | undefined;
@@ -14,7 +12,6 @@ interface NavItemProps {
 }
 
 const NavItem: React.FC<NavItemProps> = ({ icon: Icon, children, to, onClick, }) => {
-    const path = usePathname()
     return (
         <Link
             href={to}

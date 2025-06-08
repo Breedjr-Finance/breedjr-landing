@@ -1,0 +1,24 @@
+import Footer from "@/components/navigation/Footer";
+import Header from "./common/Header";
+import Hero from "./common/Hero";
+import Story from "./common/Story";
+import Values from "./common/Values";
+
+export default async function Home() {
+
+  return (
+    <div className="container">
+      <Header>
+        <Hero />
+      </Header>
+
+      <main className='container'>
+        {/* <Content /> */}
+        <Story />
+        <Values />
+      </main>
+      <Footer />
+    </div>
+
+  );
+}

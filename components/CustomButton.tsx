@@ -23,8 +23,8 @@ const CustomButton = ({ link, icon, supTitle, title }: {
 
             <div className='flex flex-col '>
 
-                <span className='text-sm text-white'>{supTitle}</span>
-                <span className='text-xl font-bold text-white'>{title}</span>
+                <span className='text-sm font-agrandir font-normal text-white'>{supTitle}</span>
+                <span className='text-xl font-agrandir font-bold text-white'>{title}</span>
             </div>
 
         </Link>

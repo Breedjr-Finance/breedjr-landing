@@ -3,9 +3,9 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* --font-agrandir: var(--font-agrandir);
---font-graphik: var(--font-graphik); */
 @theme inline {
+  --font-agrandir: var(--font-agrandir);
+  --font-graphik: var(--font-graphik);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-sidebar-ring: var(--sidebar-ring);
@@ -96,7 +96,7 @@
   --sidebar-ring: oklch(0.708 0 0);
   --font-agrandir: 'Agrandir', sans-serif;
   --font-graphik: 'Graphik', sans-serif;
-  --font-graphik-medium: 'Graphik', sans-serif;
+  /* --font-graphik-medium: 'Graphik', sans-serif; */
 
 }
 
@@ -106,9 +106,9 @@
 .font-graphik {
   font-family: var(--font-graphik);
 }
-.font-graphik-medium {
+/* .font-graphik-medium {
   font-family: var(--font-graphik-medium);
-}
+} */
 
 @layer utilities {
   .container {

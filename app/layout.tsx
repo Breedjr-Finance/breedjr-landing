@@ -34,7 +34,7 @@ const graphik = localFont({
       style: "normal",
     },
     {
-      path: "./fonts/graphik/GraphikSemiBold.otf",
+      path: "./fonts/graphik/GraphikSemibold.otf",
       weight: "600",
       style: "normal",
     },

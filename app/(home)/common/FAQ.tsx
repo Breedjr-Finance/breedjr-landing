@@ -8,7 +8,9 @@ export default function FAQ() {
                 <h2 className="text-5xl font-agrandir font-bold">Got questions? We&apos;ve got answers</h2>
                 <p
                     className="font-graphik text-base font-normal"
-                >We&apos;ve answered some common questions you might have to expand your understanding of Starpay</p>
+                >
+                    We&apos;ve answered some common questions you might have to expand your understanding of Breedjr
+                </p>
 
             </div>
 

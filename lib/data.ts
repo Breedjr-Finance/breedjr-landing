@@ -1,10 +1,3 @@
-export const sendList = [
-  "Enjoy competitive, transparent exchange rates",
-  "Get real-time rate values for all available currencies",
-  "Choose how you want to send or receive your money",
-  "Access fast, reliable customer support via chat or email",
-];
-
 export const HowitworksList = [
   {
     title: "Download the Breedjr app",
@@ -52,25 +45,25 @@ export const experienceList = [
 
 export const faqData = [
   {
-    title: "What is Starpay",
+    title: "What cryptocurrencies do you support?",
     content: [
       "Lorem ipsum dolor sit amet consectetur. Ac massa consectetur dui mauris. Libero purus sociis ultrices urna leo tempor. Odio volutpat quisque tellus quis velit elit interdum aliquam amet. Vel velit at amet scelerisque duis. Facilisis viverra malesuada nibh commodo quam tincidunt tellus. Amet gravida cum.",
     ],
   },
   {
-    title: "How does Starpay work?",
+    title: "What countries do you support for payout?",
     content: [
       "Lorem ipsum dolor sit amet consectetur. Ac massa consectetur dui mauris. Libero purus sociis ultrices urna leo tempor. Odio volutpat quisque tellus quis velit elit interdum aliquam amet. Vel velit at amet scelerisque duis. Facilisis viverra malesuada nibh commodo quam tincidunt tellus. Amet gravida cum.",
     ],
   },
   {
-    title: "What countries does Starpay support",
+    title: "How long does it take to convert crypto to cash?",
     content: [
       "Lorem ipsum dolor sit amet consectetur. Ac massa consectetur dui mauris. Libero purus sociis ultrices urna leo tempor. Odio volutpat quisque tellus quis velit elit interdum aliquam amet. Vel velit at amet scelerisque duis. Facilisis viverra malesuada nibh commodo quam tincidunt tellus. Amet gravida cum.",
     ],
   },
   {
-    title: "Do you hold assets during the conversion process?",
+    title: "Do you hold assets during the conversion process? ",
     content: [
       "Lorem ipsum dolor sit amet consectetur. Ac massa consectetur dui mauris. Libero purus sociis ultrices urna leo tempor. Odio volutpat quisque tellus quis velit elit interdum aliquam amet. Vel velit at amet scelerisque duis. Facilisis viverra malesuada nibh commodo quam tincidunt tellus. Amet gravida cum.",
     ],
@@ -85,28 +78,6 @@ export const faqData = [
     title: "Is your platform compliant with regulations?",
     content: [
       "Lorem ipsum dolor sit amet consectetur. Ac massa consectetur dui mauris. Libero purus sociis ultrices urna leo tempor. Odio volutpat quisque tellus quis velit elit interdum aliquam amet. Vel velit at amet scelerisque duis. Facilisis viverra malesuada nibh commodo quam tincidunt tellus. Amet gravida cum.",
-    ],
-  },
-];
-
-export const ourValuesData = [
-  {
-    title: "Customers first",
-    content: [
-      "We are in business to make our customers happy and meet their needs. Meeting the needs of our customers is an act we value dearly. We prioritize data privacy and security, employing robust encryption and compliance with the latest industry standards to protect your information. Transparent processes and clear, interpretable outputs make it easy for you to understand and trust the decisions made by our AI.",
-    ],
-  },
-  {
-    title: "Keep it simple",
-    content: [
-      "Starpay is designed to be a joy to use, combining functionality with a delightful user experience. Every aspect of its design, from interface to the navigation, is crafted to ensure ease and enjoyment. Smart features anticipate your needs, streamlining tasks and reducing effort.",
-    ],
-  },
-  {
-    title: "Better Together",
-    content: [
-      "We are swift because we prioritize flawless execution. We are able to guarantee speed as a value proposition because we continue to strive and maintain the highest standards of quality to not only meet but exceed customer expectations.",
-      "Ours is a culture that insists on putting the right processes and guidelines in place to maximize resources and generate the best returns. This culture ensures that we eliminate waste, promote efficiency, streamline processes and find creative solutions to problems. We obsess about what ways we can be better to make increased quality our mainstay as a company.",
     ],
   },
 ];

@@ -45,39 +45,7 @@ const Footer = () => {
                     />
 
                 </div>
-                {/* <div className='flex flex-col gap-2.5 w-[333px]'>
-                    <Image
-                        src='/images/logo.png'
-                        alt=''
-                        width={155}
-                        height={30}
-                    />
-                    <p className='text-sm text-[#E6E6E6]'>Starpay Technologies copyright © 2025, All rights reserved</p>
-                </div> */}
-                {/* <div className='grid grid-cols-2 md:grid-cols-3 gap-8'>
-                    <div className='flex flex-col gap-3.5 text-[#E6E6E6]'>
-                        <h5 className='text-lg'>Company</h5>
-                        <div className='flex flex-col gap-4'>
-                            <Link href='about-us' className='text-base'>About Us</Link>
-                            <Link href='#' className='text-base'>Careers</Link>
-                            <Link href='#' className='text-base'>Contact Us</Link>
-                        </div>
-                    </div>
-                    <div className='flex flex-col gap-3.5 text-[#E6E6E6]'>
-                        <h5 className='text-lg'>Resources</h5>
-                        <div className='flex flex-col gap-4'>
-                            <Link href='#' className='text-base'>FAQs</Link>
-                            <Link href='#' className='text-base'>Blog</Link>
-                        </div>
-                    </div>
-                    <div className='flex flex-col gap-3.5 text-[#E6E6E6]'>
-                        <h5 className='text-lg'>Legal</h5>
-                        <div className='flex flex-col gap-4'>
-                            <Link href='#' className='text-base'>Terms of service</Link>
-                            <Link href='privacy-policy' className='text-base'>Privacy Policy</Link>
-                        </div>
-                    </div>
-                </div> */}
+
             </div>
             <div className='flex flex-col md:flex-row justify-between px-8 py-12 md:items-center gap-6'>
                 <div className='flex gap-8'>
@@ -119,10 +87,8 @@ const Footer = () => {
                         </svg>
                     </Link>
                 </div>
-                {/* <p className='text-sm text-[#E6E6E6] w-full md:w-[515px]'>Starpay is registered and regularized by the Financial Transactions and Reports Analysis Centre (FINTRAC) of Canada as a Money Service Business </p> */}
             </div>
 
-            {/* <Separator className='bg-[#434343] ' /> */}
         </footer>
     )
 }

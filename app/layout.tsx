@@ -59,7 +59,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${agrandir.variable} ${graphik.variable} antialiased`}
+        className={`${agrandir.className} ${graphik.className} antialiased`}
       >
 
         {children}

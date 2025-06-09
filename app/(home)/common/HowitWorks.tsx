@@ -4,7 +4,7 @@ import { HowitworksList } from "@/lib/data";
 export default function HowItWorks() {
     return (
         <div className="container p-4 py-9 lg:p-12 lg:px-12">
-            <section className="flex flex-col lg:flex-row items-start gap-10 lg:gap-15 " id='howitworks'>
+            <section className="flex flex-col lg:flex-row items-start justify-center gap-10 lg:gap-15 " id='howitworks'>
                 <div className="w-full lg:w-[348.97px] h-full order-last lg:order-first">
                     <ImageWithFallback
                         alt=""

@@ -7,10 +7,8 @@ import ImageWithFallback from "@/components/ImageWithFallback";
 export default function Hero() {
     // max-w-7xl
     return (
-        // <div
-        //     className="grid grid-cols-1 md:grid-cols-2  px-4 sm:px-12 w-full justify-end items-end h-full bg-cyan-300"
-        // //  grid grid-cols-1 md:grid-cols-2  px-4 sm:px-12 w-full h-full
-        // >
+        // <section className="container">
+
         <div className="grid grid-cols-1 lg:grid-cols-2 px-4 sm:px-12 w-full h-full items-end justify-between lg:gap-12">
             {/* <div className="flex flex-col lg:flex-row px-4 sm:px-12 w-full h-full items-end justify-between gap-12"> */}
             <div className="flex flex-col gap-8 pt-10 lg:pt-18 h-full xl:h-[583px]">
@@ -38,7 +36,7 @@ export default function Hero() {
                     />
                 </div>
             </div>
-            <div className="  w-full h-[583px] flex items-end justify-center">
+            <div className="  w-full h-[483px] lg:h-[583px] flex items-end justify-center">
                 <ImageWithFallback
                     src="/images/heroImg.png"
                     alt="Hero Image"
@@ -51,6 +49,7 @@ export default function Hero() {
                 />
             </div>
         </div>
+        // </section>
 
     );
 }

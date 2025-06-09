@@ -2,7 +2,7 @@ import React from 'react'
 
 const Values = () => {
     return (
-        <section className='grid lg:grid-cols-2 px-4 md:px-20 gap-6.5'>
+        <section className='grid lg:grid-cols-2 px-4 md:px-12 gap-6.5'>
             <div className=' bg-[#C7C7C715] md:h-[253px] p-9 flex flex-col gap-8 max-[535px] rounded-2xl'>
                 <h5 className='text-4xl text-black font-graphik font-bold'>Why We Exist</h5>
                 <p className='text-lg font-graphik font-normal text-black'>

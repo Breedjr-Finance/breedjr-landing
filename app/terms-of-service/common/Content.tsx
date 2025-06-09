@@ -39,19 +39,19 @@ const Content = () => {
     }, [])
 
     return (
-        <div className="flex flex-col md:flex-row container-2 px-4 py-10 lg:gap-[105px]">
+        <div className="flex flex-col md:flex-row py-10 lg:gap-[105px] ">
             {/* Sidebar */}
-            <aside className="hidden lg:block w-[280px]">
-                <div className="sticky top-5 space-y-2.5 text-sm font-medium bg-[#F5F4F6] rounded-[8px]">
+            <aside className="hidden lg:block w-[315px]">
+                <div className="sticky top-5 space-y-2.5  bg-[#F5F4F6] rounded-[8px]">
                     {termsofservice.map((section) => (
                         <a
                             key={section.id}
                             href={`#${section.id}`}
                             className={cn(
-                                'block transition-colors w-fit py-3 px-6',
+                                'block transition-colors w-fit py-3 px-6 text-base',
                                 activeId === section.id
                                     ? 'text-[#553700] border-l-[3px] border-[#553700] font-semibold'
-                                    : 'text-[#667085]'
+                                    : 'text-[#667085] font-medium'
                             )}
                         >
                             {section.title}

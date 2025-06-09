@@ -3,7 +3,7 @@ import { HowitworksList } from "@/lib/data";
 
 export default function HowItWorks() {
     return (
-        <div className="p-4 py-9 lg:p-12 lg:px-20">
+        <div className="container p-4 py-9 lg:p-12 lg:px-12">
             <section className="flex flex-col lg:flex-row items-start gap-10 lg:gap-15 " id='howitworks'>
                 <div className="w-full lg:w-[348.97px] h-full order-last lg:order-first">
                     <ImageWithFallback
@@ -16,7 +16,7 @@ export default function HowItWorks() {
                         className="w-full h-[722px]"
                     />
                 </div>
-                <div className="flex flex-col gap-9.5 pt-4">
+                <div className="flex flex-col gap-9.5 pt-4 xl:ml-8">
                     <div className="flex flex-col gap-4 lg:w-[600px]">
                         <h2 className="text-3xl md:text-5xl font-agrandir font-bold text-primary2">Using Breedjr is super simple and easy</h2>
                         <p

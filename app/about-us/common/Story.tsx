@@ -2,7 +2,7 @@ import React from 'react'
 
 const Story = () => {
     return (
-        <section className='p-4 md:p-20 flex flex-col gap-8 lg:flex-row justify-between items-start'>
+        <section className='p-4 md:p-20 md:px-12 flex flex-col gap-8 lg:flex-row justify-between items-start'>
             <h2 className='font-bold text-4xl font-graphik'>
                 Our Story
             </h2>

@@ -10,8 +10,9 @@ const Footer = () => {
     const path = usePathname()
     return (
         <footer
-            className={cn('container grid px-4 lg:px-20 pt-15 gap-9',
-
+            className={cn('container grid px-4 lg:px-12 pt-15 gap-9',
+                // ["/privacy-policy", '/terms-of-service'].includes(path) ?
+                //  'lg:px-12' : 'px-20',
                 path !== '/' ? "mt-0" : "-mt-32"
             )}
         // px-4 md:px-20

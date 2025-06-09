@@ -3,16 +3,16 @@ import Navbar from "@/components/navigation/Navbar";
 import Footer from "@/components/navigation/Footer";
 
 
-export default async function Home() {
+export default async function TermsOfService() {
 
   return (
-    <div className="container">
+    <>
       <Navbar />
 
-      <main className='container'>
+      <main className='container px-4 lg:px-12'>
         <Content />
       </main>
       <Footer />
-    </div>
+    </>
   );
 }

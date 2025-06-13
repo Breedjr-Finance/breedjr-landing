@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 
 export default function Experience() {
     return (
-        <section className="bg-primary5 px-4 lg:px-[194px] py-12 lg:py-24">
+        <section className="bg-primary5 px-4 lg:px-[194px] py-12 lg:py-24" id='features'>
             <div className="container ">
 
                 <div className="max-w-[1036px] mx-auto grid gap-16">

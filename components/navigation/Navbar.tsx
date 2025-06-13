@@ -47,7 +47,7 @@ const Navbar = () => {
                     <NavItem to="/#howitworks" >
                         How it works
                     </NavItem>
-                    <NavItem to="!#" >
+                    <NavItem to="/#features" >
                         Features
                     </NavItem>
                     <NavItem to="/#faq" >
@@ -84,7 +84,7 @@ const Navbar = () => {
                         <NavItem to="/#howitworks" >
                             How it works
                         </NavItem>
-                        <NavItem to="!#" >
+                        <NavItem to="/#features" >
                             Features
                         </NavItem>
                         <NavItem to="/#faq" >

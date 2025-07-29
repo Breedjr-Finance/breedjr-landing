@@ -14,14 +14,11 @@ export default async function Home() {
       <Header>
         <Hero />
       </Header>
-      <main
-      // className='container'
-      >
-        <HowItWorks />
-        <Experience />
-        <FAQ />
-      </main>
-      <Footer />
+
+      <HowItWorks />
+      <Experience />
+      <FAQ />
+
     </>
   );
 }

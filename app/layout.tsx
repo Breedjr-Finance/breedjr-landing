@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import localFont from "next/font/local";
+import Navbar from "@/components/navigation/Navbar";
+import Footer from "@/components/navigation/Footer";
 
 const agrandir = localFont({
   variable: "--font-agrandir",
@@ -61,10 +63,11 @@ export default function RootLayout({
       <body
         className={`${agrandir.className} ${graphik.className} antialiased`}
       >
-
-        {children}
-
-        {/* <Footer /> */}
+        <Navbar />
+        <main >
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   );

@@ -12,13 +12,14 @@ export default async function Home() {
         <Hero />
       </Header>
 
-      <main
+      <div
         className='container'
       >
+
         <Story />
         <Values />
-      </main>
-      <Footer />
+      </div>
+
     </>
 
   );

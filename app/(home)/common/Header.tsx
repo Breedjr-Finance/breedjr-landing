@@ -21,7 +21,6 @@ const Header = ({ children }: { children: React.ReactNode }) => {
                     />
                 </div>
                 <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-between items-center ">
-                    <Navbar />
                     {children}
                 </div>
             </div>

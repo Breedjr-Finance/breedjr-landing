@@ -9,7 +9,7 @@ export default function Hero() {
     return (
         // <section className="container">
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 px-4 sm:px-12 w-full h-full items-end justify-between lg:gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 px-4 sm:px-12 w-full h-full pt-20 items-end justify-between  lg:gap-12">
             {/* <div className="flex flex-col lg:flex-row px-4 sm:px-12 w-full h-full items-end justify-between gap-12"> */}
             <div className="flex flex-col gap-8 pt-10 lg:pt-18 h-full xl:h-[583px]">
                 <div className="flex flex-col gap-[5px] w-full xl:w-[555px]">

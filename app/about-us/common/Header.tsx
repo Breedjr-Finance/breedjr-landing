@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../../../components/navigation/Navbar";
 import ImageWithFallback from "../../../components/ImageWithFallback";
 
 const Header = ({ children }: { children: React.ReactNode }) => {

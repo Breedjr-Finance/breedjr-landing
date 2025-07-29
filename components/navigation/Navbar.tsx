@@ -6,12 +6,10 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import NavItem from "./NavItem";
 import { cn } from "@/lib/utils";
-import { usePathname } from "next/navigation";
 import Image from "next/image";
 import { useScrolled } from "@/hooks/useScrolled";
 
 const Navbar = () => {
-    const path = usePathname();
     const [isOpen, setIsOpen] = useState(false);
     const scrolled = useScrolled(10);
 

@@ -20,12 +20,41 @@ export function CustomAccordion({ data, className }: { data: any[]; className?: 
                 >
                     <AccordionTrigger className="hover:no-underline text-gray-600 text-lg font-graphik font-medium cursor-pointer">{item?.title}</AccordionTrigger>
                     <AccordionContent className="flex flex-col">
-                        {item?.content?.map((i: string, idx: number) =>
+                        {/* {
+                        
+                        item?.content?.map((i: string, idx: number) =>
                             <p key={idx} className="text-base font-graphik font-normal">
                                 {i}
                             </p>
+                        )} */}
 
-                        )}
+
+                        {item.content.map((entry: any, index: number) => {
+                            if (typeof entry === 'string') {
+                                // Just a single string – render as a paragraph
+                                return (
+                                    <p key={index} className="text-base font-graphik font-normal">
+                                        {entry}
+                                    </p>
+                                );
+                            } else if (Array.isArray(entry)) {
+                                // An array of strings – render as an ordered list
+                                return (
+                                    <ul key={index} className="list-disc pl-6 space-y-2 pt-3 list-inside">
+                                        {entry.map((subItem, subIdx) => (
+                                            <li key={subIdx} className="text-base font-graphik font-semibold">
+                                                {subItem}
+                                            </li>
+                                        ))}
+                                    </ul>
+                                );
+                            } else {
+                                return null; // Ignore anything else (objects, numbers, etc.)
+                            }
+                        })}
+
+
+
                     </AccordionContent>
                 </AccordionItem>
             )}

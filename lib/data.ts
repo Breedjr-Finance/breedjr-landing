@@ -45,39 +45,47 @@ export const experienceList = [
 
 export const faqData = [
   {
-    title: "What cryptocurrencies do you support?",
+    title: "What is Breedjr?",
     content: [
-      "Lorem ipsum dolor sit amet consectetur. Ac massa consectetur dui mauris. Libero purus sociis ultrices urna leo tempor. Odio volutpat quisque tellus quis velit elit interdum aliquam amet. Vel velit at amet scelerisque duis. Facilisis viverra malesuada nibh commodo quam tincidunt tellus. Amet gravida cum.",
+      "Breedjr is a platform that makes it easy to convert Bitcoin, Ethereum, USDT, and other cryptocurrencies into cash and receive instant payment in your local currency.",
     ],
   },
   {
-    title: "What countries do you support for payout?",
+    title: "How Does the Breedjr App Work?",
     content: [
-      "Lorem ipsum dolor sit amet consectetur. Ac massa consectetur dui mauris. Libero purus sociis ultrices urna leo tempor. Odio volutpat quisque tellus quis velit elit interdum aliquam amet. Vel velit at amet scelerisque duis. Facilisis viverra malesuada nibh commodo quam tincidunt tellus. Amet gravida cum.",
+      "Using the Breedjr app is simple. First, download the app from the App Store or Play Store. After setting up a free account by providing basic information and verifying your identity, you can connect your bank account and deposit your cryptocurrency. Once the crypto is deposited, it is immediately converted, and the cash equivalent is paid out to your bank account at the rate shown on your app.",
     ],
   },
   {
-    title: "How long does it take to convert crypto to cash?",
+    title: "What Cryptocurrencies Do You Support?",
+    content: ["Breedjr currently supports:", ["USDT", "USDC", "BTC"]],
+  },
+  {
+    title: "What Countries Do You Support for Payout?",
     content: [
-      "Lorem ipsum dolor sit amet consectetur. Ac massa consectetur dui mauris. Libero purus sociis ultrices urna leo tempor. Odio volutpat quisque tellus quis velit elit interdum aliquam amet. Vel velit at amet scelerisque duis. Facilisis viverra malesuada nibh commodo quam tincidunt tellus. Amet gravida cum.",
+      "Currently, Breedjr supports payouts to Nigerian bank accounts. We are working on expanding to other countries soon.",
     ],
   },
   {
-    title: "Do you hold assets during the conversion process? ",
+    title: "How Long Does It Take to Convert Crypto to Cash?",
     content: [
-      "Lorem ipsum dolor sit amet consectetur. Ac massa consectetur dui mauris. Libero purus sociis ultrices urna leo tempor. Odio volutpat quisque tellus quis velit elit interdum aliquam amet. Vel velit at amet scelerisque duis. Facilisis viverra malesuada nibh commodo quam tincidunt tellus. Amet gravida cum.",
+      "Cash payouts are processed within 3 minutes of receiving your crypto.",
     ],
   },
   {
-    title: "Are your fees transparent?",
+    title: "Do You Hold Assets During the Conversion Process?",
     content: [
-      "Lorem ipsum dolor sit amet consectetur. Ac massa consectetur dui mauris. Libero purus sociis ultrices urna leo tempor. Odio volutpat quisque tellus quis velit elit interdum aliquam amet. Vel velit at amet scelerisque duis. Facilisis viverra malesuada nibh commodo quam tincidunt tellus. Amet gravida cum.",
+      "No, we do not hold your assets. The conversion is done instantly, and we pay out the cash equivalent.",
     ],
   },
   {
-    title: "Is your platform compliant with regulations?",
+    title: "Are Your Fees Transparent?",
+    content: ["Currently, Breedjr does not charge any fees for conversions."],
+  },
+  {
+    title: "Is Your Platform Compliant with Regulations?",
     content: [
-      "Lorem ipsum dolor sit amet consectetur. Ac massa consectetur dui mauris. Libero purus sociis ultrices urna leo tempor. Odio volutpat quisque tellus quis velit elit interdum aliquam amet. Vel velit at amet scelerisque duis. Facilisis viverra malesuada nibh commodo quam tincidunt tellus. Amet gravida cum.",
+      "Yes, Breedjr operates in compliance with relevant regulations in the jurisdictions where we operate. We follow industry standards to ensure that our platform is safe, secure, and trustworthy for our users.",
     ],
   },
 ];
